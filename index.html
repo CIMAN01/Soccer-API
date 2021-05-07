@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soccer</title>
+    </head>
+    <body style="background-color: #a7d0cd; color: #34656d;">
+        <h1 style="text-align: center;">Football Matches</h1>
+            <br>
+                <div style="text-align: center;">
+                    <h3>Find the scores of your favorite soccer team</h3>
+                    <p>(uses a REST API to find total goals made by team for that particular year)</p>
+                </div>
+            <br>
+            <br>    
+        <div style="text-align: center;">
+            <form action="/" method="post">
+                <label for="teamInput">Enter a Team: </label>
+                <input id="teamInput" type="text" name="team">
+                <label for="yearInput">Enter a Year: </label>
+                <input id="yearInput" type="number" name="year">
+                <button type="submit">Get Score</button>
+            </form>
+        </div>
+    </body>
+</html>
